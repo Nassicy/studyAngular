@@ -1,0 +1,10 @@
+/*
+* @Author: anchen
+* @Date:   2016-12-04 11:24:03
+* @Last Modified by:   anchen
+* @Last Modified time: 2016-12-04 11:24:10
+*/
+.show-scope-demo .ng-scope,.show-scope-demo .ng-scope {
+    border: 1px solid red;
+    margin: 3px;
+}

@@ -1,0 +1,91 @@
+<header class="navbar" id="header-navbar">
+    <div class="container">
+        <a href="index.html" id="logo" class="navbar-brand">
+            <img src="${ctx}/resources/back/img/logo.png" alt="" class="normal-logo img-responsive" title="中物物流网 " />
+            <span id="title">帅比的后台管理</span>
+        </a>
+        <div class="clearfix">
+            <button class="navbar-toggle" data-target=".navbar-ex1-collapse" data-toggle="collapse" type="button">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="nav-no-collapse navbar-left pull-left">
+                <ul class="nav navbar-nav pull-left">
+                    <li>
+                        <a class="btn" id="make-small-nav">
+                            <i class="fa fa-outdent"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-no-collapse pull-right" id="header-nav">
+                <ul class="nav navbar-nav pull-right">
+                  <!-- 搜索按钮[[ -->
+                    <li class="mobile-search">
+                        <a class="searchLink">
+                            <input type="text" placeholder="search here.." class="searchWhat" style="line-height: 20px;">
+                            <i class="fa fa-search"></i>
+                        </a>
+                    </li>
+                    <!-- <li class="hidden-xs">
+                        <a class="btn">
+                            <i class="fa fa-cog"></i>
+                        </a>
+                    </li>
+                    <li class="dropdown hidden-xs">
+                        <a class="btn dropdown-toggle" data-toggle="dropdown">
+                            <i class="fa  fa-bell"></i>
+                            <span class="count">8</span>
+                        </a>
+                        <ul class="dropdown-menu notifications-list">
+                            <li class="pointer">
+                                <div class="pointer-inner">
+                                    <div class="arrow"></div>
+                                </div>
+                            </li>
+                            <li class="item-header">您有8条新的待办消息</li>
+                            <li class="item">
+                                <a href="#">
+                                    <i class="fa fa-comment"></i>
+                                    <span class="content">订单待办消息</span>
+                                    <span class="time"><i class="fa fa-clock-o"></i>13 min.</span>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="#">
+                                    <i class="fa fa-plus"></i>
+                                    <span class="content">会话待办消息</span>
+                                    <span class="time"><i class="fa fa-clock-o"></i>13 min.</span>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="#">
+                                    <i class="fa fa-envelope"></i>
+                                    <span class="content">车辆待办消息</span>
+                                    <span class="time"><i class="fa fa-clock-o"></i>13 min.</span>
+                                </a>
+                            </li>
+                            <li class="item-footer">
+                                <a href="#">
+                                        View all notifications
+                                    </a>
+                            </li>
+                        </ul>
+                    </li> -->
+                    <li class="dropdown profile-dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <img src="images/cat.jpg" alt="用户" />
+                            <span>shuaibi</span> <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#"><i class="fa fa-user"></i>个人中心</a></li>
+                            <li><a href="#"><i class="fa fa-cog"></i>设置</a></li>
+                            <li><a href="#"><i class="fa fa-envelope-o"></i>消息</a></li>
+                            <li><a href="javascript:void(0);" onclick="logout()"><i class="fa fa-power-off"></i>退出</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>

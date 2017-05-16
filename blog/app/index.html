@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="blogApp">
+    <head>
+        <meta charset="utf-8">
+        <title>blog</title>
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" href="framework/bootstrap-3.0.0/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+        <link rel="stylesheet" href="framework/ng-grid-2.0.12/ng-grid.css" />
+        <link rel="stylesheet" type="text/css" href="css/login.css">
+        <link rel="stylesheet" type="text/css" href="css/top-left-module.css">
+        <link rel="stylesheet" type="text/css" href="css/layout.css">
+
+
+    </head>
+    <body id="app" class="app" data-custom-page data-ng-controller="blogCtrl">
+        <header data-ng-include=" 'pages/layout/topNav.html' " id="header" class="header-container "></header>
+        <main class="main-container"  id="page-wrapper">
+            <aside data-ng-include=" 'pages/layout/leftNav.html' " id="nav-container" class="nav-container">
+            </aside>
+            <div id="content" class="content-container">
+                <section data-ui-view class="view-container"></section>
+            </div>
+        </main>
+    </body>
+        <script type="text/javascript" src="framework/jquery-1.9.1.js"></script>
+        <script src="framework/angular/angular.min.js"></script>
+        <script src="framework/angular-animate/angular-animate.min.js"></script>
+        <script src="framework/angular-aria/angular-aria.min.js"></script>
+        <script src="framework/angular-ui-router/release/angular-ui-router.min.js"></script>
+        <script type="text/javascript" src="framework/bootstrap-3.0.0/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="framework/ui-bootstrap-tpls-0.11.0.js"></script>
+        <script type="text/javascript" src="framework/ng-grid-2.0.12/ng-grid.debug.js"></script>
+        <script src="js/scripts.js"></script>
+        <script src="js/app.controller.js"></script>
+        <script src="js/app.route.js"></script>
+        <script src="js/animations.js"></script>
+        <script src="js/controllers.js"></script>
+        <script src="js/filters.js"></script>
+        <script src="js/services.js"></script>
+
+</html>

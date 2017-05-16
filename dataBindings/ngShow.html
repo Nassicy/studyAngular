@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="ngShowModule">
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div ng-controller="menuController">
+            <button ng-click="toggleMenu()">toggleMenu</button>
+            <ul ng-show="menuState.show">
+                <li ng-click="stun()">stu</li>
+                <li ng-click="dis()">dsf</li>
+                <li ng-click="earse()">sdalk</li>
+            </ul>
+        </div>
+    </body>
+    <script src="js/angular-1.3.0.js"></script>
+    <script src="js/ngShow.js"></script>
+</html>

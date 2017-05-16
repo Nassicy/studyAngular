@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myCSSModule">
+    <head>
+        <meta charset="utf-8">
+        <title>angularjs改css</title>
+        <link rel="stylesheet" href="css/css.css" />
+    </head>
+    <body>
+        <div ng-controller="cssCtrl">
+            <p class="text-{{color}}">测试css样式</p>
+            <button ng-click="setGreen()" >绿色</button>
+        </div>
+    </body>
+    <script src="js/angular-1.3.0.js"></script>
+    <script src="js/css.js"></script>
+</html>

@@ -1,0 +1,12 @@
+/*
+* @Author: anchen
+* @Date:   2016-12-04 15:50:54
+* @Last Modified by:   anchen
+* @Last Modified time: 2016-12-04 15:53:47
+*/
+.error {
+    background-color: red;
+}
+.warning {
+    background-color: yellow;
+}

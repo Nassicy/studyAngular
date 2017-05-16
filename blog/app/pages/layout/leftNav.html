@@ -1,0 +1,54 @@
+<!-- 左侧导航[[ -->
+<div id="nav-col">
+    <div id="user-left-box" class="clearfix">
+        <img alt="" src="images/cat.jpg" />
+        <div class="user-box pull-left">
+            <span class="name">Administrator</span>
+            <br>
+            <span>在线</span>
+        </div>
+    </div>
+    <div id="sidebar-nav">
+        <ul class="nav nav-pills nav-stacked" id="leftMenu">
+            <li id="left_1_1">
+                <a href="${ctx}/back/user/index">
+                    <i class="fa  fa-home"></i>
+                    <span>首页</span>
+                </a>
+            </li>
+            <li id="left_1_2">
+                <a href="${ctx}/back/user/manage">
+                    <i class="fa fa-users"></i>
+                    <span>用户管理</span>
+                </a>
+            </li>
+            <li id="left_1_3">
+                <a href="javascript:void(0)">
+                    <i class="fa fa-list-alt"></i>
+                    <span>博文管理</span>
+                </a>
+                <ul class="subMenu">
+                    <li id="left_2_1">
+                        <a href="${ctx }/back/article/toList">
+                            <i class="fa fa-laptop"></i>
+                            <span>文章管理</span>
+                        </a>
+                    </li>
+                    <li id="left_2_2">
+                        <a href="${ctx }/back/type/toList">
+                            <i class="fa fa-tasks"></i>
+                            <span>分类管理</span>
+                        </a>
+                    </li>
+                    <li id="left_2_3">
+                        <a href="${ctx }/back/tag/toList">
+                            <i class="fa fa-tag"></i>
+                            <span>标签管理</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- 左侧导航]] -->
